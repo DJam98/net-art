@@ -101,7 +101,7 @@ class selector {                            // The class for the options, aka; w
     rect (this.x_pos, this.y_pos, this.width, this.width, this.width / 4);
 
      textFont (myFont);
-     textSize (this.width-20);
+     textSize (this.width-28);
      textAlign(CENTER, CENTER);
      fill('black')
      text (letter, this.x_pos + this.width/2, this.y_pos + this.width/2);
