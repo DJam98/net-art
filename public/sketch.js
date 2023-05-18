@@ -57,8 +57,6 @@ function draw(){
 
     options[8].delete()                     // Drawing in the delete button
 
- 
-
 
     if (stampCount > stampCounter){         // This is through functions that are below, that gets activated when the mouse is pressed within the 'stamp' area
 
@@ -121,7 +119,6 @@ class selector {                            // The class for the options, aka; w
         image (binIcon, this.x_pos+this.width/10, this.y_pos+this.width/10, this.width-10, this.width-10)
 
     }
-
 }
 
 class currentStamps {                       // The class for storing the all the stamps currently displayed. Because the class is just converting data, it just needs the local variables.
@@ -160,7 +157,7 @@ function selection() {                  // This is all the selection options. Ju
                 }
 
             }
-            
+
             if (innerHeight/10 * 2 < mouseY){   // Stamp option 3
                 if (mouseY < innerHeight/10 * 2 + innerWidth/25){
                     stampText = 'h'
